@@ -13,7 +13,7 @@ install_requires = [
 
 setuptools.setup(
     name = 'stormkafkamon',
-    version = '0.1.0',
+    version = '0.2.0',
     license = 'Apache',
     description = '''Monitor offsets of a storm kafka spout.''',
     author = "Philip O'Toole",
