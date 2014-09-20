@@ -4,11 +4,11 @@ import setuptools
 
 install_requires = [
     'PrettyTable==0.7.2',
-    'kazoo==1.00',
+    'kazoo>=2.0',
     'simplejson',
     'argparse',
     'requests',
-    'kafka-python'
+    'kafka-python>=0.9.0'
 ]
 
 setuptools.setup(

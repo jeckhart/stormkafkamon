@@ -9,10 +9,10 @@ class NullHandler(logging.Handler):
 
 logger = logging.getLogger('kafka.codec').addHandler(NullHandler())
 
-import struct
 import socket
 from collections import namedtuple
-from kafka.client import KafkaClient, OffsetRequest
+from kafka.client import KafkaClient
+from kafka.common import OffsetRequest
 
 class ProcessorError(Exception):
     def __init__(self, msg):
