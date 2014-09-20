@@ -7,10 +7,8 @@ Tested against Kafka 0.72 and Storm 0.82 (along with associated Kafka spout from
 
 Requirements:
 
-After cloning, run `pip install stormkafkamon`, or just
-
 ```
-pip install https://github.com/otoolep/stormkafkamon/zipball/master
+pip install -e git+https://github.com/jeckhart/stormkafkamon.git@0.2.0#egg=stormkafkamon
 ```
 
 Workflow:
